@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700;900&amp;family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "surface-bright": "#2c2c2c",
+                        "surface-variant": "#262626",
+                        "primary-dim": "#d6e359",
+                        "secondary-fixed": "#fae44c",
+                        "on-tertiary-container": "#584500",
+                        "surface-container-high": "#1f1f1f",
+                        "background": "#0e0e0e",
+                        "on-primary": "#525a00",
+                        "tertiary-fixed-dim": "#ebbf24",
+                        "primary-fixed-dim": "#d6e359",
+                        "on-primary-fixed-variant": "#5c6400",
+                        "secondary-container": "#6b5f00",
+                        "primary": "#e4f265",
+                        "on-error": "#450900",
+                        "on-tertiary-fixed-variant": "#634e00",
+                        "on-secondary-fixed": "#484000",
+                        "on-background": "#ffffff",
+                        "outline": "#757575",
+                        "secondary-dim": "#ebd63f",
+                        "tertiary-container": "#facd34",
+                        "secondary": "#fae44c",
+                        "on-primary-container": "#212500",
+                        "on-tertiary": "#624e00",
+                        "tertiary-fixed": "#facd34",
+                        "on-primary-fixed": "#414700",
+                        "inverse-surface": "#f9f9f9",
+                        "error-dim": "#d53d18",
+                        "surface-dim": "#0e0e0e",
+                        "on-error-container": "#ffd2c8",
+                        "surface-container": "#191919",
+                        "on-surface-variant": "#ababab",
+                        "on-surface": "#ffffff",
+                        "tertiary-dim": "#ebbf24",
+                        "secondary-fixed-dim": "#ebd63f",
+                        "surface": "#0e0e0e",
+                        "surface-container-highest": "#262626",
+                        "on-secondary-container": "#fff8df",
+                        "tertiary": "#ffdd79",
+                        "error-container": "#b92902",
+                        "on-secondary-fixed-variant": "#675c00",
+                        "inverse-primary": "#5c6400",
+                        "surface-container-low": "#131313",
+                        "primary-fixed": "#e4f265",
+                        "error": "#ff7351",
+                        "surface-tint": "#e4f265",
+                        "on-secondary": "#5d5200",
+                        "primary-container": "#9ca821",
+                        "surface-container-lowest": "#000000",
+                        "inverse-on-surface": "#555555",
+                        "outline-variant": "#484848",
+                        "on-tertiary-fixed": "#413200"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0px",
+                        "lg": "0px",
+                        "xl": "0px",
+                        "full": "9999px"
+                    },
+                    "fontFamily": {
+                        "headline": ["Space Grotesk"],
+                        "body": ["Inter"],
+                        "label": ["Inter"]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        body {
+            background-color: #0e0e0e;
+            color: #ffffff;
+            font-family: 'Inter', sans-serif;
+        }
+        .hide-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .hide-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background text-on-background min-h-screen pb-20">
+<!-- TopAppBar -->
+<header class="bg-[#0e0e0e] flex justify-between items-center w-full px-6 py-4 sticky top-0 z-40 border-0">
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-[#e4f265] active:scale-95 duration-100 transition-colors" data-icon="bolt">bolt</span>
+<h1 class="text-2xl font-black text-[#e4f265] tracking-widest font-space-grotesk uppercase">UPOMINKI</h1>
+</div>
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-[#e4f265] active:scale-95 duration-100 transition-colors" data-icon="search">search</span>
+</div>
+</header>
+<div class="bg-[#262626] h-[2px] w-full"></div>
+<!-- Search Context Header -->
+<section class="px-6 pt-8 pb-4">
+<div class="flex flex-col gap-2">
+<span class="font-headline font-bold text-primary text-xs uppercase tracking-[0.2em]">Searching for</span>
+<div class="flex items-end justify-between">
+<h2 class="font-headline font-black text-4xl uppercase tracking-tighter text-on-surface italic">MUG HOODIE</h2>
+<span class="font-label text-on-surface-variant text-sm mb-1">04 RESULTS</span>
+</div>
+</div>
+</section>
+<!-- Search Results - Single Column Scrollable -->
+<main class="px-6 py-4 flex flex-col gap-8">
+<!-- Product Card 1: Obsidian Hoodie -->
+<article class="flex flex-col group">
+<div class="bg-surface-container-low aspect-[4/5] relative overflow-hidden">
+<img alt="Obsidian Heavyweight Hoodie" class="w-full h-full object-cover" data-alt="Premium heavyweight black streetwear hoodie displayed in a stark industrial concrete setting with sharp cinematic lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBivogYd2VDx1NVt_kXnxVuxsNnS78geMAtQoOx__24-1vjt0ytRSP4bZY5WcgPAy4Pt3dlfw7lPrmLvHjAnAbbWXGslhELE8zzhmnF5rLC597g-mbhi_A2rPrh9_IfJ7YPkljTUKH5ST8nwsPnw5skul_4aEK0SZYbFH-81YGAh_FWqV7NC5i4hEYrrqWdi4sKzlOWIxIPpET3HtSokEpj6ww2kDm4HYEduaIKElW269bNWYez55LWcH5uE5V3gBcFDDm-LJ0KOuo"/>
+<div class="absolute top-0 left-0 bg-primary text-on-primary font-headline font-bold text-[10px] uppercase px-3 py-1.5 tracking-widest">
+                    Best Seller
+                </div>
+</div>
+<div class="bg-surface-container-highest p-4 flex flex-col gap-2">
+<div class="flex justify-between items-start">
+<h3 class="font-headline font-bold text-xl uppercase tracking-tight leading-tight max-w-[70%]">OBSIDIAN HEAVYWEIGHT HOODIE</h3>
+<span class="font-headline font-black text-xl text-primary">$85.00</span>
+</div>
+<p class="font-body text-on-surface-variant text-xs leading-relaxed">Industrial grade 450GSM cotton. Double-stitched structural integrity. Deep obsidian dye.</p>
+<button class="mt-2 w-full bg-primary text-on-primary font-headline font-bold uppercase py-3 text-sm active:scale-[0.98] transition-transform">
+                    Add to Cart
+                </button>
+</div>
+</article>
+<!-- Product Card 2: Concrete Hoodie -->
+<article class="flex flex-col group">
+<div class="bg-surface-container-low aspect-[4/5] relative overflow-hidden">
+<img alt="Concrete Sector Hoodie" class="w-full h-full object-cover" data-alt="Overhead shot of a structural grey hoodie on a dark steel textured background with neon lime accent lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBjToz3SkggWtfIpKU2Togmfi0XOu_2kmuh-_wKcuL6FjRqcn4GrWTTeLzg2exR8VOqfCxSuhs_yxfqKsFbRqRV00-Y2BVAfaFGeQMFiF_v2zGtyic6UwPXUQSZAevjMWnHuPfxYKS_WaQE1GOazRozwK7DRbSLA8PVxGHVsozVYQ5jJLnxlZ-jtEwgXmBUiSsYgxeMIYPtyGWsEvkqVogGpjjkNFBHkcscpxayRLU9Rz7yx0a-5w07lIcl3BNMeJKQqytiPIMGj3s"/>
+</div>
+<div class="bg-surface-container-highest p-4 flex flex-col gap-2">
+<div class="flex justify-between items-start">
+<h3 class="font-headline font-bold text-xl uppercase tracking-tight leading-tight max-w-[70%]">CONCRETE SECTOR HOODIE</h3>
+<span class="font-headline font-black text-xl text-primary">$92.00</span>
+</div>
+<p class="font-body text-on-surface-variant text-xs leading-relaxed">Cold-cast grey aesthetic. Oversized architectural fit. High-density textile print.</p>
+<button class="mt-2 w-full bg-surface text-primary border border-primary/20 font-headline font-bold uppercase py-3 text-sm active:scale-[0.98] transition-transform">
+                    View Specs
+                </button>
+</div>
+</article>
+<!-- Product Card 3: Monolith Mug -->
+<article class="flex flex-col group">
+<div class="bg-surface-container-low aspect-[4/5] relative overflow-hidden">
+<img alt="Monolith Matte Mug" class="w-full h-full object-cover" data-alt="Minimalist matte black ceramic mug on a dark stone surface with dramatic shadow and vibrant lime liquid glow reflection" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDbwFl-EwOR8LQSncS7b0cn-7O8Z78D05SqUZAPfn8TvuvbTH884s9lLPFdgcMpIqoDg6MOqSE0UxkvUQ5LOWdw5PMTXqygSlN30sS-T3-x78YAuaPwEGCztt4OKcYkvqW60jHz-G7m5wyGzZ-PnYDchQe33LFVfsmNod12uuyk2OGxfDPTcl9pLeBVzQFjV1BVXEkQsV9qVh9dE0kjWvOZJuGHRYhrtu7k7GJjmvS6-5Lx1UV7FmKGK9ziIx0n_yOmjCnAA1uawJ0"/>
+<div class="absolute top-0 left-0 bg-primary text-on-primary font-headline font-bold text-[10px] uppercase px-3 py-1.5 tracking-widest">
+                    Best Seller
+                </div>
+</div>
+<div class="bg-surface-container-highest p-4 flex flex-col gap-2">
+<div class="flex justify-between items-start">
+<h3 class="font-headline font-bold text-xl uppercase tracking-tight leading-tight max-w-[70%]">MONOLITH MATTE MUG</h3>
+<span class="font-headline font-black text-xl text-primary">$28.00</span>
+</div>
+<p class="font-body text-on-surface-variant text-xs leading-relaxed">Precision-engineered ceramic. Non-reflective matte obsidian finish. Thermal containment tech.</p>
+<button class="mt-2 w-full bg-primary text-on-primary font-headline font-bold uppercase py-3 text-sm active:scale-[0.98] transition-transform">
+                    Add to Cart
+                </button>
+</div>
+</article>
+<!-- Product Card 4: Titanium Vessel -->
+<article class="flex flex-col group">
+<div class="bg-surface-container-low aspect-[4/5] relative overflow-hidden">
+<img alt="Titanium White Vessel" class="w-full h-full object-cover" data-alt="Sleek architectural white coffee mug with a brutalist square handle against a dark industrial mesh background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC8YAtMhsIY5_LkCF_jPc6jd00dfTdCXPblwWclObcz6EZIlmVmcHDs55AhKvyvo7BwxytS-1yh8ES00GkBNZlXcyYcsW7LYdKWola8eaIywXoKH_5iHh3ZUVVeKB9WickhLjw4h4OEfKX3Nm-haqCK5-lnVJsoKmMrbuamqFQTRnX130BVDawJxqyjFZpHMHptpBRoFexvLW-dGnnPc80kgHk00sY6VQ6jh4z5LYEiEzYRq3KDW6v-QsqMbDaBWo-L7yp-nVnDuTY"/>
+</div>
+<div class="bg-surface-container-highest p-4 flex flex-col gap-2">
+<div class="flex justify-between items-start">
+<h3 class="font-headline font-bold text-xl uppercase tracking-tight leading-tight max-w-[70%]">TITANIUM WHITE VESSEL</h3>
+<span class="font-headline font-black text-xl text-primary">$24.00</span>
+</div>
+<p class="font-body text-on-surface-variant text-xs leading-relaxed">Reinforced stoneware. Stark industrial white. Engravable surface for personalization.</p>
+<button class="mt-2 w-full bg-surface text-primary border border-primary/20 font-headline font-bold uppercase py-3 text-sm active:scale-[0.98] transition-transform">
+                    View Specs
+                </button>
+</div>
+</article>
+</main>
+<!-- Trending Section (Artifacts) -->
+<section class="mt-10 mb-24">
+<div class="px-6 mb-4 flex items-center justify-between">
+<h4 class="font-headline font-bold text-sm uppercase tracking-widest text-primary">TRENDING ARTIFACTS</h4>
+<div class="h-[1px] flex-grow ml-4 bg-outline-variant/30"></div>
+</div>
+<div class="flex gap-3 overflow-x-auto px-6 hide-scrollbar">
+<div class="flex-shrink-0 bg-surface-container-highest border-b-2 border-primary px-6 py-3">
+<span class="font-headline font-bold text-xs uppercase tracking-tighter text-on-surface">STEEL FLASKS</span>
+</div>
+<div class="flex-shrink-0 bg-surface-container-highest px-6 py-3">
+<span class="font-headline font-bold text-xs uppercase tracking-tighter text-on-surface-variant">ACRYLIC PRINTS</span>
+</div>
+<div class="flex-shrink-0 bg-surface-container-highest px-6 py-3">
+<span class="font-headline font-bold text-xs uppercase tracking-tighter text-on-surface-variant">LASER PLATES</span>
+</div>
+<div class="flex-shrink-0 bg-surface-container-highest px-6 py-3">
+<span class="font-headline font-bold text-xs uppercase tracking-tighter text-on-surface-variant">TECH TOTES</span>
+</div>
+</div>
+</section>
+<!-- BottomNavBar -->
+<nav class="fixed bottom-0 left-0 w-full z-50 flex justify-around items-center h-16 px-4 bg-[#0e0e0e]/80 backdrop-blur-xl shadow-[0_-4px_20px_rgba(228,242,101,0.05)] border-0">
+<a class="flex flex-col items-center justify-center text-[#ababab] pt-2 hover:text-[#e4f265] transition-all active:bg-[#262626]" href="#">
+<span class="material-symbols-outlined" data-icon="home">home</span>
+</a>
+<a class="flex flex-col items-center justify-center text-[#e4f265] border-t-4 border-[#e4f265] pt-1 transition-all active:bg-[#262626]" href="#">
+<span class="material-symbols-outlined" data-icon="category">category</span>
+</a>
+<a class="flex flex-col items-center justify-center text-[#ababab] pt-2 hover:text-[#e4f265] transition-all active:bg-[#262626]" href="#">
+<span class="material-symbols-outlined" data-icon="shopping_cart">shopping_cart</span>
+</a>
+<a class="flex flex-col items-center justify-center text-[#ababab] pt-2 hover:text-[#e4f265] transition-all active:bg-[#262626]" href="#">
+<span class="material-symbols-outlined" data-icon="person">person</span>
+</a>
+</nav>
+</body></html>

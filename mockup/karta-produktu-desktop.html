@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="pl"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700;800;900&amp;family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "outline-variant": "#484848",
+                    "on-primary-fixed-variant": "#5c6400",
+                    "on-primary": "#525a00",
+                    "primary-container": "#9ca821",
+                    "primary-fixed": "#e4f265",
+                    "inverse-on-surface": "#555555",
+                    "inverse-surface": "#f9f9f9",
+                    "tertiary-fixed": "#facd34",
+                    "tertiary-container": "#facd34",
+                    "on-primary-fixed": "#414700",
+                    "surface-container-low": "#131313",
+                    "on-surface": "#ffffff",
+                    "on-tertiary-fixed": "#413200",
+                    "error-container": "#b92902",
+                    "surface-bright": "#2c2c2c",
+                    "secondary-dim": "#ebd63f",
+                    "on-secondary": "#5d5200",
+                    "tertiary-fixed-dim": "#ebbf24",
+                    "tertiary-dim": "#ebbf24",
+                    "on-secondary-container": "#fff8df",
+                    "primary-dim": "#d6e359",
+                    "inverse-primary": "#5c6400",
+                    "outline": "#757575",
+                    "on-primary-container": "#212500",
+                    "primary": "#e4f265",
+                    "on-tertiary-container": "#584500",
+                    "surface-variant": "#262626",
+                    "on-error-container": "#ffd2c8",
+                    "background": "#0e0e0e",
+                    "on-surface-variant": "#ababab",
+                    "secondary-fixed": "#fae44c",
+                    "surface-container": "#191919",
+                    "on-secondary-fixed": "#484000",
+                    "on-tertiary": "#624e00",
+                    "secondary": "#fae44c",
+                    "error": "#ff7351",
+                    "surface": "#0e0e0e",
+                    "surface-dim": "#0e0e0e",
+                    "on-secondary-fixed-variant": "#675c00",
+                    "on-tertiary-fixed-variant": "#634e00",
+                    "surface-container-highest": "#262626",
+                    "secondary-fixed-dim": "#ebd63f",
+                    "on-error": "#450900",
+                    "surface-container-high": "#1f1f1f",
+                    "error-dim": "#d53d18",
+                    "tertiary": "#ffdd79",
+                    "surface-container-lowest": "#000000",
+                    "primary-fixed-dim": "#d6e359",
+                    "secondary-container": "#6b5f00",
+                    "surface-tint": "#e4f265",
+                    "on-background": "#ffffff"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0px",
+                    "lg": "0px",
+                    "xl": "0px",
+                    "full": "9999px"
+            },
+            "fontFamily": {
+                    "headline": ["Space Grotesk"],
+                    "body": ["Inter"],
+                    "label": ["Inter"]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        body {
+            background-color: #0e0e0e;
+            color: #ffffff;
+            font-family: 'Inter', sans-serif;
+        }
+        .headline-font {
+            font-family: 'Space Grotesk', sans-serif;
+        }
+        /* Custom scrollbar for industrial feel */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #0e0e0e;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #262626;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #e4f265;
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background selection:bg-primary selection:text-on-primary">
+<!-- Top Navigation -->
+<nav class="bg-[#0e0e0e] flex justify-between items-center w-full px-12 py-6 max-w-none ml-auto mr-auto sticky top-0 z-50">
+<div class="text-3xl font-black text-[#e4f265] tracking-tighter headline-font">
+            UPOMINKI.SHOP
+        </div>
+<div class="hidden md:flex gap-10 font-['Space_Grotesk'] tracking-tight text-sm font-bold uppercase">
+<a class="text-[#e4f265] border-b-2 border-[#e4f265] pb-1" href="#">Gadżety</a>
+<a class="text-[#ababab] hover:text-[#e4f265] transition-colors" href="#">Promocje</a>
+<a class="text-[#ababab] hover:text-[#e4f265] transition-colors" href="#">Kontakt</a>
+</div>
+<div class="flex items-center gap-6">
+<button class="text-[#e4f265] hover:bg-[#262626] p-2 transition-all duration-150 active:opacity-80 scale-95">
+<span class="material-symbols-outlined" data-icon="shopping_cart">shopping_cart</span>
+</button>
+<button class="text-[#e4f265] hover:bg-[#262626] p-2 transition-all duration-150 active:opacity-80 scale-95">
+<span class="material-symbols-outlined" data-icon="person">person</span>
+</button>
+</div>
+</nav>
+<main class="max-w-[1440px] mx-auto px-12 py-12">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-16">
+<!-- Product Gallery Column -->
+<div class="lg:col-span-7">
+<div class="bg-surface-container-low aspect-square relative group overflow-hidden">
+<img alt="Personalized T-Shirt" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="high contrast studio shot of a dark grey cotton t-shirt with a detailed orange tiger head graphic print on the chest, industrial lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCMSFg4T1amZN6AKX0tkAiggaY8wAra7UW52b2KzQAh1aapNotZNkduSqkFQrh-pXzlcOUjBoaYNOvFsKAU1fQeRdQG-FsyueYHKCwq7AbQSXFrXMkVPPLv9WUOgWek-C2TeQkM6jxkrowv9um_RF8XfMGzyRLKUmGRM_pUriONierboE8lxbvd6YuCueNe9w6eaNIRdZKcLUXxZDtzlJJWdd0xr319ICqwjHkBcBuZdJfVhbbPz2iwPpbMWIufHpI7PB7t7oXeaIk"/>
+<div class="absolute top-8 left-8 bg-primary text-on-primary px-4 py-1 headline-font font-bold text-sm tracking-widest uppercase">
+                        Personalized
+                    </div>
+</div>
+<!-- Thumbnails/Secondary Views -->
+<div class="grid grid-cols-4 gap-4 mt-4">
+<div class="bg-surface-container-highest aspect-square border-2 border-primary">
+<img class="w-full h-full object-cover opacity-80" data-alt="close up of t-shirt fabric texture and high quality print detail" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBiIqe4wx-SrfjY2691ZhGoE2ebEZIBk8Am9cHDhcDI9ELWeTy0CkZ5ARKPWIX6cXjmFgcGQUWCo50aNPZTT2V_rWc9mhJ4XL7g3rwLey1NOzgtHdzS8vevdBJDkrdKICDmR0pXR_4L1Uov_miX7HbgzwsC1bhCde6V6hIpK29kFiflH9f6mG0oHiQ2gUzFhwmdp1XzAPYerFoTPO-Bobq_nh45vk5x8Quk7PAR4SIe_zrqKZmUv8XuglmGWFY5XXYdFzpFhlemAV0"/>
+</div>
+<div class="bg-surface-container-highest aspect-square">
+<img class="w-full h-full object-cover opacity-40 hover:opacity-100 transition-opacity" data-alt="folded dark grey t-shirt on a black industrial metal surface" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB9TJxUZgSA21z_68X3WkPCVaC6JMVA3JYYg0Q2uV_k-HuRW5VgrBu6G0idrE5sUmoG5klsWZwY6atn2peIvMukx6Wl588N-qAL2Sk_-Q_aZr64PlrlHtfkrbNQ6Dyn35_uIdeLUH9VQVuRKi3lb7n5-31xi3P73xsMGcdY608oefBUPWySN_q-UUhD3aCeFXGCjiOaY2HF-57hCvLhmQJhLFFHl8AbIuadib9Rp0Ma5XoUj6xRok0c6wrZOj5RRE8pBteG7FmXNp0"/>
+</div>
+<div class="bg-surface-container-highest aspect-square">
+<img class="w-full h-full object-cover opacity-40 hover:opacity-100 transition-opacity" data-alt="lifestyle shot of a man wearing a dark personalized t-shirt in an urban setting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA2uXLF-H5G0Ck_1ARC5jP63z3KOJkmQVCqu8u246fV97BJfmvYRQWN2IkpCRPEJziu9X3dS1ctnAgN2dlxX6NgavjiR1wm-vLhbzZvnzWQ3b_xeu01msr0rbd1hbd_kMDKkbwt12CaRcdl1udOfEn10NO_qppIXZGdls0Giyr2j8NVsX2LlC5YlxEZNO8zDgKXpG6V0n14P2XQtvYforEE_RPaRJAj42AHq1uu2EEbeO7aTWRuI15NoypdlBXio-D52VGerjL6fTM"/>
+</div>
+<div class="bg-surface-container-highest aspect-square flex items-center justify-center text-on-surface-variant hover:text-primary transition-colors cursor-pointer">
+<span class="material-symbols-outlined text-4xl">play_circle</span>
+</div>
+</div>
+</div>
+<!-- Product Details Column -->
+<div class="lg:col-span-5 flex flex-col">
+<header class="mb-10">
+<h1 class="headline-font text-6xl font-black tracking-tighter mb-4 uppercase">Personalized T-Shirt</h1>
+<div class="flex items-baseline gap-4">
+<span class="text-4xl font-bold text-primary headline-font">29.99 PLN</span>
+<span class="text-on-surface-variant line-through text-xl">45.00 PLN</span>
+</div>
+</header>
+<!-- Configuration Steps -->
+<div class="space-y-10">
+<!-- Step 1: Text -->
+<section>
+<div class="flex items-center gap-3 mb-4">
+<span class="bg-primary text-on-primary w-6 h-6 flex items-center justify-center font-bold text-xs">01</span>
+<h3 class="headline-font font-bold uppercase tracking-widest text-sm">Input Your Text</h3>
+</div>
+<div class="relative">
+<input class="w-full bg-surface-container-lowest border-0 border-b-2 border-primary/40 focus:border-primary focus:ring-0 text-white placeholder:text-outline-variant py-4 px-0 headline-font text-lg tracking-widest transition-all" placeholder="YOUR TEXT" type="text"/>
+</div>
+</section>
+<!-- Step 2: Upload -->
+<section>
+<div class="flex items-center gap-3 mb-4">
+<span class="bg-primary text-on-primary w-6 h-6 flex items-center justify-center font-bold text-xs">02</span>
+<h3 class="headline-font font-bold uppercase tracking-widest text-sm">Upload Graphic Asset</h3>
+</div>
+<div class="border-2 border-dashed border-outline-variant hover:border-primary transition-colors p-8 flex flex-col items-center justify-center bg-surface-container-low cursor-pointer group">
+<span class="material-symbols-outlined text-4xl mb-2 text-outline-variant group-hover:text-primary transition-colors">cloud_upload</span>
+<p class="text-xs font-bold tracking-widest headline-font text-on-surface-variant group-hover:text-white transition-colors">DROP FILE OR CLICK TO BROWSE</p>
+</div>
+</section>
+<!-- Step 3: Selection -->
+<section class="grid grid-cols-2 gap-8">
+<div>
+<h3 class="headline-font font-bold uppercase tracking-widest text-xs mb-4 text-on-surface-variant">Select Size</h3>
+<div class="flex gap-2">
+<button class="w-12 h-12 flex items-center justify-center bg-surface-container-highest hover:bg-primary hover:text-on-primary font-bold text-sm transition-all">S</button>
+<button class="w-12 h-12 flex items-center justify-center bg-primary text-on-primary font-bold text-sm transition-all">M</button>
+<button class="w-12 h-12 flex items-center justify-center bg-surface-container-highest hover:bg-primary hover:text-on-primary font-bold text-sm transition-all">L</button>
+<button class="w-12 h-12 flex items-center justify-center bg-surface-container-highest hover:bg-primary hover:text-on-primary font-bold text-sm transition-all">XL</button>
+</div>
+</div>
+<div>
+<h3 class="headline-font font-bold uppercase tracking-widest text-xs mb-4 text-on-surface-variant">Base Color</h3>
+<div class="flex gap-3">
+<button class="w-8 h-8 bg-[#1a1a1a] border-2 border-primary ring-2 ring-offset-2 ring-offset-background ring-transparent"></button>
+<button class="w-8 h-8 bg-[#3d3d3d] border-2 border-transparent hover:border-outline"></button>
+<button class="w-8 h-8 bg-[#ffffff] border-2 border-transparent hover:border-outline"></button>
+<button class="w-8 h-8 bg-[#2a2a4e] border-2 border-transparent hover:border-outline"></button>
+</div>
+</div>
+</section>
+<!-- Actions -->
+<div class="pt-6 space-y-4">
+<button class="w-full bg-primary text-on-primary py-6 headline-font font-black text-xl tracking-widest hover:bg-primary-dim transition-all active:scale-[0.98]">
+                            ADD TO CART
+                        </button>
+<button class="w-full bg-surface-container-highest text-primary py-4 headline-font font-bold text-sm tracking-widest flex items-center justify-center gap-2 hover:bg-surface-bright transition-all active:scale-[0.98]">
+<span class="material-symbols-outlined text-lg">favorite</span>
+                            ADD TO FAVORITES
+                        </button>
+</div>
+</div>
+</div>
+</div>
+<!-- Technical Specs Section -->
+<section class="mt-32 pt-20 border-t border-surface-container-highest">
+<h2 class="headline-font text-4xl font-black tracking-tighter mb-16 uppercase">Engineering Specs</h2>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+<div class="flex gap-6">
+<div class="flex-shrink-0 w-16 h-16 bg-surface-container-highest flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-3xl">texture</span>
+</div>
+<div>
+<h4 class="headline-font font-bold text-lg mb-2 uppercase">Fiber Density</h4>
+<p class="text-on-surface-variant text-sm leading-relaxed">240 GSM heavy cotton jersey. Combed for superior smoothness and durability under industrial washing conditions.</p>
+</div>
+</div>
+<div class="flex gap-6">
+<div class="flex-shrink-0 w-16 h-16 bg-surface-container-highest flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-3xl">ink_highlighter</span>
+</div>
+<div>
+<h4 class="headline-font font-bold text-lg mb-2 uppercase">Ink Technology</h4>
+<p class="text-on-surface-variant text-sm leading-relaxed">NeoPigment™ Eco-Ink. Water-based, solvent-free pigment that bonds with fibers for zero-crack finish.</p>
+</div>
+</div>
+<div class="flex gap-6">
+<div class="flex-shrink-0 w-16 h-16 bg-surface-container-highest flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-3xl">straighten</span>
+</div>
+<div>
+<h4 class="headline-font font-bold text-lg mb-2 uppercase">True Fit</h4>
+<p class="text-on-surface-variant text-sm leading-relaxed">Engineered side seams and double-needle topstitching ensures the garment maintains its silhouette for life.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Newsletter / Bento Grid Promo -->
+<section class="mt-32 grid grid-cols-1 md:grid-cols-3 gap-6">
+<div class="md:col-span-2 bg-primary p-12 flex flex-col justify-between min-h-[400px]">
+<h3 class="headline-font text-5xl font-black text-on-primary leading-none uppercase">JOIN THE<br/>INDUSTRIAL<br/>CULT.</h3>
+<div class="flex max-w-md mt-12">
+<input class="flex-grow bg-on-primary/10 border-0 border-b-2 border-on-primary focus:ring-0 placeholder:text-on-primary/60 text-on-primary headline-font font-bold" placeholder="EMAIL ADDRESS" type="email"/>
+<button class="bg-on-primary text-primary px-8 py-4 headline-font font-bold tracking-widest hover:bg-on-primary/90 transition-colors">SUBMIT</button>
+</div>
+</div>
+<div class="bg-surface-container-highest p-8 flex flex-col justify-center items-center text-center">
+<span class="material-symbols-outlined text-6xl text-primary mb-4">local_shipping</span>
+<h4 class="headline-font font-bold text-xl uppercase mb-2">Express Deployment</h4>
+<p class="text-on-surface-variant text-sm px-4">Standard 48h manufacturing time. Global logistics network enabled.</p>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-[#0e0e0e] grid grid-cols-1 md:grid-cols-3 gap-8 w-full px-12 py-16 mt-20">
+<div class="flex flex-col gap-4">
+<div class="text-xl font-bold text-[#e4f265] headline-font">UPOMINKI.SHOP</div>
+<p class="font-['Inter'] text-xs tracking-widest uppercase text-[#ababab]">© 2024 UPOMINKI.SHOP - INDUSTRIAL PRECISION Gifting</p>
+</div>
+<div class="flex flex-wrap gap-x-8 gap-y-4">
+<a class="font-['Inter'] text-xs tracking-widest uppercase text-[#ababab] hover:text-[#e4f265] transition-colors duration-200" href="#">O nas</a>
+<a class="font-['Inter'] text-xs tracking-widest uppercase text-[#ababab] hover:text-[#e4f265] transition-colors duration-200" href="#">Regulamin</a>
+<a class="font-['Inter'] text-xs tracking-widest uppercase text-[#ababab] hover:text-[#e4f265] transition-colors duration-200" href="#">Polityka Prywatności</a>
+<a class="font-['Inter'] text-xs tracking-widest uppercase text-[#ababab] hover:text-[#e4f265] transition-colors duration-200" href="#">Dostawa</a>
+<a class="font-['Inter'] text-xs tracking-widest uppercase text-[#ababab] hover:text-[#e4f265] transition-colors duration-200" href="#">Zwroty</a>
+<a class="font-['Inter'] text-xs tracking-widest uppercase text-[#ababab] hover:text-[#e4f265] transition-colors duration-200" href="#">FAQ</a>
+</div>
+<div class="flex justify-end items-start gap-4">
+<a class="text-[#ababab] hover:text-[#e4f265] transition-colors" href="#"><span class="material-symbols-outlined">share</span></a>
+<a class="text-[#ababab] hover:text-[#e4f265] transition-colors" href="#"><span class="material-symbols-outlined">alternate_email</span></a>
+</div>
+</footer>
+</body></html>
