@@ -7,7 +7,7 @@ defineProps({
 
 <template>
   <section class="w-full bg-primary py-16 overflow-hidden relative group">
-    <div class="absolute -right-20 top-0 h-full flex items-center text-on-primary-container opacity-5 select-none pointer-events-none">
+    <div class="absolute -right-20 top-0 h-full flex items-center text-black opacity-10 select-none pointer-events-none">
       <span class="text-[20rem] font-black uppercase whitespace-nowrap font-headline">OFFER</span>
     </div>
     <div class="px-12 flex flex-col md:flex-row justify-between items-center gap-8 relative z-10 w-full max-w-none mx-auto">

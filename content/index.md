@@ -16,7 +16,7 @@ Popular Categories
 #subtitle
 Industrial Grade Personalization
 
----
+#default
 ::landing-category-item{title="CUSTOM MUGS" link="#" image="https://lh3.googleusercontent.com/aida-public/AB6AXuBkjvJX66Dv1LXXDzpi4nAJufdHNt2UZsn9lZ9bu3pSQakcvaU4BWwkOcAjUH0tzp9UYtxK0wl2wyt2JDhVncOcFiRV_V_AdEFkOSyOQGZwkJcu1t-ek9I1d4yyKhB_kuAur1E2Z3JrlzamF83zCgmwNEGpuaINgdLuvIesdm_0cj7eqlBK-rtRpemywkux1NesJYnDKW9LItCOrcxqEFRarW8NJOVm9MsgvmVAAcbAetTt65m_ERg7KbQwAw85TBBPwfM62B5a6c8"}
 ::
 ::landing-category-item{title="HOODIES" link="#" image="https://lh3.googleusercontent.com/aida-public/AB6AXuCI1J_z8XeUsxq7gFhkYvMa6LsBzGjmkkcUJQLtCyQ9tSqUligezoIxuGmbxAzbIBAkCGIYcU1jrPVQ4VuXQOf-bZRjvZTmLCObHB75aVLOen4U3OfdQfuaZBOcRipLTeVCFXzzdoFqvhejDstNEE7S8qeWFhVMciKqFFN50d_en1ok8ERPCMTv77WDFImzdALyenmqDP8FrEUVNsMwVHWPo3d2FNYFmrfgonO4iOOSXjyu5EmzhLxsJGcptivtNY8-A0ll_ov8_og"}

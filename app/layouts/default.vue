@@ -7,7 +7,7 @@
           UPOMINKI.SHOP
         </div>
         <nav class="hidden md:flex items-center gap-10">
-          <NuxtLink to="/" class="text-[#e4f265] border-b-4 border-[#e4f265] pb-2 transition-all font-headline tracking-tighter uppercase relative">
+          <NuxtLink to="/" class="text-[#e4f265] relative pb-2 transition-all font-headline tracking-tighter uppercase before:absolute before:bottom-0 before:left-0 before:w-full before:h-[2px] before:bg-[#e4f265]">
             Shop All
           </NuxtLink>
           <NuxtLink to="#" class="text-[#ababab] hover:text-[#e4f265] transition-colors font-headline tracking-tighter uppercase">Engraving</NuxtLink>
@@ -16,11 +16,11 @@
           <NuxtLink to="#" class="text-[#ababab] hover:text-[#e4f265] transition-colors font-headline tracking-tighter uppercase">Corporate</NuxtLink>
         </nav>
         <div class="flex items-center gap-6">
-          <button class="text-[#ababab] hover:text-[#e4f265] transition-all duration-150 scale-95 active:opacity-80">
-            <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;">person</span>
+          <button class="text-[#ababab] hover:text-[#e4f265] transition-all duration-150 scale-95 active:opacity-80 flex items-center justify-center">
+            <Icon name="ph:user" class="text-2xl" />
           </button>
-          <button class="text-[#ababab] hover:text-[#e4f265] transition-all duration-150 scale-95 active:opacity-80">
-            <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;">shopping_cart</span>
+          <button class="text-[#ababab] hover:text-[#e4f265] transition-all duration-150 scale-95 active:opacity-80 flex items-center justify-center">
+            <Icon name="ph:shopping-cart" class="text-2xl" />
           </button>
         </div>
         <div class="bg-[#262626] h-[2px] w-full absolute bottom-0 left-0"></div>
@@ -33,7 +33,7 @@
 
     <!-- Footer -->
     <footer class="bg-[#0e0e0e] border-t border-[#262626]">
-      <div class="grid grid-cols-2 md:grid-cols-4 gap-12 px-12 py-20">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-16 px-12 py-28">
         <!-- Brand Column -->
         <div class="col-span-2 md:col-span-1">
           <div class="text-xl font-bold text-[#e4f265] mb-8 uppercase tracking-widest font-headline">UPOMINKI.SHOP</div>
@@ -41,8 +41,8 @@
             Premium industrial personalization services for corporate and individual clients. Engineered for distinction.
           </p>
           <div class="flex gap-4">
-            <span class="material-symbols-outlined text-[#ababab] hover:text-[#e4f265] cursor-pointer" style="font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;">language</span>
-            <span class="material-symbols-outlined text-[#ababab] hover:text-[#e4f265] cursor-pointer" style="font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;">mail</span>
+            <Icon name="ph:globe" class="text-[#ababab] hover:text-[#e4f265] cursor-pointer text-2xl transition-colors" />
+            <Icon name="ph:envelope" class="text-[#ababab] hover:text-[#e4f265] cursor-pointer text-2xl transition-colors" />
           </div>
         </div>
         <!-- Navigation -->

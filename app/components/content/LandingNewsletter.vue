@@ -20,14 +20,14 @@ defineProps({
         <div class="relative">
           <input
             type="email"
-            class="w-full bg-surface-container-lowest border-0 border-b border-primary/40 px-6 py-6 text-xl text-on-surface focus:ring-0 focus:border-primary transition-all outline-none sharp-edge placeholder:text-on-surface-variant/30 font-headline"
+            class="w-full bg-[#111111] border border-[#262626] px-8 py-6 text-xl text-white focus:ring-0 focus:border-[#e4f265] transition-all outline-none placeholder:text-[#666666] font-body"
             placeholder="EMAIL ADDRESS"
           />
         </div>
-        <button class="w-full bg-primary text-on-primary py-6 text-xl font-black uppercase sharp-edge hover:bg-primary-dim transition-all active:scale-95 font-headline">
+        <button class="w-full bg-[#e4f265] text-[#0e0e0e] py-6 text-xl font-black uppercase hover:bg-[#d4e255] transition-all active:scale-95 font-headline">
           {{ buttonText }}
         </button>
-        <p class="text-[10px] text-on-surface-variant/50 font-label tracking-widest text-center uppercase">{{ disclaimer }}</p>
+        <p class="text-[10px] text-[#ababab]/50 font-label tracking-widest text-center uppercase">{{ disclaimer }}</p>
       </div>
     </div>
   </section>
