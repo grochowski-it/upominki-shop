@@ -1,13 +1,47 @@
+import tailwindcss from '@tailwindcss/vite'
+
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
   modules: [
     '@nuxt/content',
-    '@nuxthq/studio',
+    'nuxt-studio',
     '@nuxt/image',
     '@nuxt/icon',
     '@nuxtjs/seo',
     'nuxt-llms'
-  ]
+  ],
+  css: ['~/assets/css/tailwind.css'],
+  vite: {
+    plugins: [
+      tailwindcss()
+    ],
+    resolve: {
+      alias: {
+        'tailwindcss/lib/index.js': 'tailwindcss/dist/lib.js'
+      }
+    }
+  },
+  content: {
+    preview: {
+      api: 'https://api.nuxt.studio'
+    }
+  },
+  studio: {
+    repository: {
+      provider: 'github',
+      owner: 'grochowski-it',
+      repo: 'upominki-shop-sklep',
+      branch: 'main'
+    }
+  },
+  app: {
+    head: {
+      link: [
+        { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&family=Inter:wght@300..700&display=swap' },
+        { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap' }
+      ]
+    }
+  }
 })
