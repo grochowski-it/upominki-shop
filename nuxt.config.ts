@@ -10,8 +10,19 @@ export default defineNuxtConfig({
     '@nuxt/image',
     '@nuxt/icon',
     '@nuxtjs/seo',
-    'nuxt-llms'
+    'nuxt-llms',
+    '@nuxtjs/i18n'
   ],
+  i18n: {
+    locales: [
+      { code: 'pl', language: 'pl-PL', file: 'pl.json' },
+      { code: 'en', language: 'en-US', file: 'en.json' }
+    ],
+    defaultLocale: 'pl',
+    strategy: 'prefix_except_default',
+    lazy: true,
+    langDir: '../locales'
+  },
   css: ['~/assets/css/tailwind.css'],
   vite: {
     plugins: [

@@ -1,4 +1,5 @@
 <script setup lang="ts">
+const localePath = useLocalePath()
 defineProps({
   title: String,
   link: String,
@@ -13,7 +14,7 @@ defineProps({
     <div class="absolute bottom-0 left-0 p-8 w-full">
       <h3 class="text-3xl font-bold uppercase mb-4 text-on-surface font-headline">{{ title }}</h3>
       <div class="h-px w-full bg-outline-variant mb-4"></div>
-      <NuxtLink :to="link" class="text-primary font-bold flex items-center gap-2 text-sm uppercase tracking-widest font-body group-hover:gap-3 transition-all">
+      <NuxtLink :to="localePath(link)" class="text-primary font-bold flex items-center gap-2 text-sm uppercase tracking-widest font-body group-hover:gap-3 transition-all">
         View Range <Icon name="ph:arrow-up-right-bold" class="text-sm" />
       </NuxtLink>
     </div>

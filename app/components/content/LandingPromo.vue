@@ -6,9 +6,9 @@ defineProps({
 </script>
 
 <template>
-  <section class="w-full bg-primary py-16 overflow-hidden relative group">
-    <div class="absolute -right-20 top-0 h-full flex items-center text-black opacity-10 select-none pointer-events-none">
-      <span class="text-[20rem] font-black uppercase whitespace-nowrap font-headline">OFFER</span>
+  <section class="w-full bg-primary py-24 lg:py-32 min-h-[400px] lg:min-h-[500px] overflow-hidden relative group flex items-center">
+    <div class="absolute -right-10 lg:-right-20 top-0 h-full flex items-center text-black opacity-10 select-none pointer-events-none">
+      <span class="text-[12rem] lg:text-[18rem] font-black uppercase whitespace-nowrap font-headline leading-none">OFFER</span>
     </div>
     <div class="px-12 flex flex-col md:flex-row justify-between items-center gap-8 relative z-10 w-full max-w-none mx-auto">
       <div class="text-on-primary">
