@@ -1,0 +1,11 @@
+links:
+  - label: "Sklep"
+    url: "/"
+  - label: "Grawer"
+    url: "#"
+  - label: "Nadruki"
+    url: "#"
+  - label: "Bestsellery"
+    url: "#"
+  - label: "B2B"
+    url: "#"

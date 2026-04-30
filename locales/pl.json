@@ -1,0 +1,56 @@
+{
+  "nav": {
+    "shopAll": "Sklep",
+    "engraving": "Grawer",
+    "printing": "Nadruki",
+    "bestsellers": "Bestsellery",
+    "corporate": "B2B"
+  },
+  "footer": {
+    "description": "Wysokiej jakości usługi personalizacji przemysłowej dla klientów hurtowych i detalicznych. Najwyższa jakość wykonania.",
+    "navigation": "Nawigacja",
+    "about": "O Nas",
+    "support": "Wsparcie",
+    "shipping": "Logistyka i Dostawa",
+    "bulkOrders": "Zamówienia Hurtowe",
+    "contact": "Kontakt i Wsparcie",
+    "privacyPolicy": "Polityka Prywatności",
+    "legal": "Informacje Prawne",
+    "terms": "Regulamin",
+    "cookiePolicy": "Polityka Cookies",
+    "returns": "Zwroty i Reklamacje",
+    "wholesaleLogin": "Logowanie Hurtowników",
+    "rights": "© 2024 UPOMINKI.SHOP. WYKONANE Z PRECYZJĄ.",
+    "city": "WARSZAWA / PL",
+    "logistics": "GLOBALNA LOGISTYKA"
+  },
+  "product": {
+    "tag": "SPERSONALIZOWANY",
+    "title": "Spersonalizowana Koszulka",
+    "price": "29.99 PLN",
+    "oldPrice": "45.00 PLN",
+    "step1Label": "Wpisz swój tekst",
+    "step1Placeholder": "TWÓJ TEKST",
+    "maxChars": "MAKS. 24 ZNAKI",
+    "step2Label": "Wgraj grafikę",
+    "step2Upload": "UPUŚĆ PLIK LUB KLIKNIJ ABY WYBRAĆ",
+    "selectSize": "Wybierz rozmiar",
+    "baseColor": "Kolor bazowy",
+    "addToCart": "DODAJ DO KOSZYKA",
+    "addToFavorites": "DODAJ DO ULUBIONYCH",
+    "breadcrumb": {
+      "shop": "Sklep",
+      "apparel": "Odzież",
+      "personalized": "Spersonalizowane"
+    }
+  },
+  "search": {
+    "placeholder": "SZUKAJ ARTEFAKTÓW...",
+    "searching_for": "WYSZUKIWANIE",
+    "results_count": "WYNIKI: {count}",
+    "trending": "POPULARNE ARTEFAKTY",
+    "view_specs": "ZOBACZ SPECYFIKACJĘ",
+    "add_to_cart": "DODAJ DO KOSZYKA",
+    "best_seller": "BESTSELLER"
+  }
+}

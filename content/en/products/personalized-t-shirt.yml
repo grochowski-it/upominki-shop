@@ -1,0 +1,36 @@
+title: Personalized T-Shirt
+price: 29.99 PLN
+oldPrice: 45.00 PLN
+tag: PERSONALIZED
+mainImage: https://lh3.googleusercontent.com/aida-public/AB6AXuCMSFg4T1amZN6AKX0tkAiggaY8wAra7UW52b2KzQAh1aapNotZNkduSqkFQrh-pXzlcOUjBoaYNOvFsKAU1fQeRdQG-FsyueYHKCwq7AbQSXFrXMkVPPLv9WUOgWek-C2TeQkM6jxkrowv9um_RF8XfMGzyRLKUmGRM_pUriONierboE8lxbvd6YuCueNe9w6eaNIRdZKcLUXxZDtzlJJWdd0xr319ICqwjHkBcBuZdJfVhbbPz2iwPpbMWIufHpI7PB7t7oXeaIk
+thumbnails: 
+  - https://lh3.googleusercontent.com/aida-public/AB6AXuBiIqe4wx-SrfjY2691ZhGoE2ebEZIBk8Am9cHDhcDI9ELWeTy0CkZ5ARKPWIX6cXjmFgcGQUWCo50aNPZTT2V_rWc9mhJ4XL7g3rwLey1NOzgtHdzS8vevdBJDkrdKICDmR0pXR_4L1Uov_miX7HbgzwsC1bhCde6V6hIpK29kFiflH9f6mG0oHiQ2gUzFhwmdp1XzAPYerFoTPO-Bobq_nh45vk5x8Quk7PAR4SIe_zrqKZmUv8XuglmGWFY5XXYdFzpFhlemAV0
+  - https://lh3.googleusercontent.com/aida-public/AB6AXuB9TJxUZgSA21z_68X3WkPCVaC6JMVA3JYYg0Q2uV_k-HuRW5VgrBu6G0idrE5sUmoG5klsWZwY6atn2peIvMukx6Wl588N-qAL2Sk_-Q_aZr64PlrlHtfkrbNQ6Dyn35_uIdeLUH9VQVuRKi3lb7n5-31xi3P73xsMGcdY608oefBUPWySN_q-UUhD3aCeFXGCjiOaY2HF-57hCvLhmQJhLFFHl8AbIuadib9Rp0Ma5XoUj6xRok0c6wrZOj5RRE8pBteG7FmXNp0
+  - https://lh3.googleusercontent.com/aida-public/AB6AXuA2uXLF-H5G0Ck_1ARC5jP63z3KOJkmQVCqu8u246fV97BJfmvYRQWN2IkpCRPEJziu9X3dS1ctnAgN2dlxX6NgavjiR1wm-vLhbzZvnzWQ3b_xeu01msr0rbd1hbd_kMDKkbwt12CaRcdl1udOfEn10NO_qppIXZGdls0Giyr2j8NVsX2LlC5YlxEZNO8zDgKXpG6V0n14P2XQtvYforEE_RPaRJAj42AHq1uu2EEbeO7aTWRuI15NoypdlBXio-D52VGerjL6fTM
+sizes:
+  - S
+  - M
+  - L
+  - XL
+colors:
+  - name: Black
+    value: '#1a1a1a'
+  - name: Charcoal
+    value: '#3d3d3d'
+  - name: White
+    value: '#ffffff'
+  - name: Navy
+    value: '#2a2a4e'
+features:
+  printTitle: High Quality Print
+  printDesc: Precision DTG engineering ensures vibrant colors that won't fade after washing.
+  materialTitle: Durable Material
+  materialDesc: 240 GSM organic heavy cotton. Pre-shrunk and double-stitched for longevity.
+specs:
+  title: Engineering Specs
+  fiberTitle: Fiber Density
+  fiberDesc: 240 GSM heavy cotton jersey. Combed for superior smoothness and durability under industrial washing conditions.
+  inkTitle: Ink Technology
+  inkDesc: NeoPigment™ Eco-Ink. Water-based, solvent-free pigment that bonds with fibers for zero-crack finish.
+  fitTitle: True fit
+  fitDesc: Engineered side seams and double-needle topstitching ensures the garment maintains its silhouette for life.

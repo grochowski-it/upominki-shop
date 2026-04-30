@@ -1,0 +1,56 @@
+{
+  "nav": {
+    "shopAll": "Shop All",
+    "engraving": "Engraving",
+    "printing": "Printing",
+    "bestsellers": "Bestsellers",
+    "corporate": "Corporate"
+  },
+  "footer": {
+    "description": "Premium industrial personalization services for corporate and individual clients. Engineered for distinction.",
+    "navigation": "Navigation",
+    "about": "About Industrialist",
+    "support": "Support",
+    "shipping": "Shipping Logistics",
+    "bulkOrders": "Bulk Orders",
+    "contact": "Contact Tech Support",
+    "privacyPolicy": "Privacy Policy",
+    "legal": "Legal",
+    "terms": "Terms of Service",
+    "cookiePolicy": "Cookie Policy",
+    "returns": "Returns",
+    "wholesaleLogin": "Wholesale Login",
+    "rights": "© 2024 UPOMINKI.SHOP. PRECISION ENGRAVED.",
+    "city": "WARSAW / PL",
+    "logistics": "GLOBAL LOGISTICS"
+  },
+  "product": {
+    "tag": "PERSONALIZED",
+    "title": "Personalized T-Shirt",
+    "price": "29.99 PLN",
+    "oldPrice": "45.00 PLN",
+    "step1Label": "Input Your Text",
+    "step1Placeholder": "YOUR TEXT",
+    "maxChars": "MAX 24 CHARACTERS",
+    "step2Label": "Upload Graphic Asset",
+    "step2Upload": "DROP FILE OR CLICK TO BROWSE",
+    "selectSize": "Select Size",
+    "baseColor": "Base Color",
+    "addToCart": "ADD TO CART",
+    "addToFavorites": "ADD TO FAVORITES",
+    "breadcrumb": {
+      "shop": "Shop",
+      "apparel": "Apparel",
+      "personalized": "Personalized"
+    }
+  },
+  "search": {
+    "placeholder": "SEARCH ARTIFACTS...",
+    "searching_for": "SEARCHING FOR",
+    "results_count": "{count} RESULTS",
+    "trending": "TRENDING ARTIFACTS",
+    "view_specs": "VIEW SPECS",
+    "add_to_cart": "ADD TO CART",
+    "best_seller": "BEST SELLER"
+  }
+}
